@@ -1,3 +1,7 @@
 ###0x00. C - Hello, World
 
-A README.md file, at the root of the folder of this project, containing a description of the project
+Learning Objectives
+
+0. Preprocessor
+
+Write a script that runs a C file through the preprocessor and save the result into another file.

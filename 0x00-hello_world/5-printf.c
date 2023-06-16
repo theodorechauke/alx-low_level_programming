@@ -3,7 +3,7 @@
 *main - Entry point
 *
 *Retrun: 0 (Succesful)
-*0/
+*/
 int main(void)
 {
 	print("with proper grammar, but the outcome is a piece of art,\n");

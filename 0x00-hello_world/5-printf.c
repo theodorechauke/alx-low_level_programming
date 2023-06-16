@@ -1,11 +1,12 @@
-#include <studio.h>
+#include <stdio.h>
+
 /**
-*main - Entry point
+* main - This is the entry point
 *
-*Retrun: 0 (Succesful)
+* Retrun: 0 (Succesful)
 */
 int main(void)
 {
-	print("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }

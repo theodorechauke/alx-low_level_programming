@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - This is the entry point
+* main - A program that print a line using the printf function
 *
 * Retrun: 0 (Succesful)
 */

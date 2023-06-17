@@ -1,24 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - prints all possible combinations of single digit numbers.
- *
- * Return: 0 success
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i = 0;
+	int d;
 
-	while (i <= 10)
+	for (d = '0'; d <= '9'; d++)
 	{
-		printf("%d", i);
-		if (i != 9)
-		{
-			printf(", ");
-		}
-		++i;
+	putchar(d);
+	if (d != '9')
+	{
+	putchar(',');
+	putchar(' ');
 	}
-
-	printf("\n");
+	}
+	putchar('\n');
 	return (0);
 
 }

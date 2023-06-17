@@ -1,18 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
- * Retrun: 0 (Success)
+ * Retrun: Always 0 (Success)
  */
-int main(void)
-{
-	int num;
 
-	while (num < 10)
-	{
-		printf("%d", num);
-		num += 1;
-	}
+int main(void)
+
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	printf("%d", i);
 	printf("\n");
 	return (0);
 }

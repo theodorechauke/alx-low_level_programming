@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int i = '0';
+	int i = 0;
 
-	while (i <= '9')
+	while (i <= 10)
 	{
-		putchar(i);
-		if (i != '9')
+		printf("%d", i);
+		if (i != 9)
 		{
-			putchar('.');
-			putchar(' ');
+			printf(", ");
 		}
 		++i;
 	}
-	putchar('\n');
+
+	printf("\n");
 	return (0);
 
 }

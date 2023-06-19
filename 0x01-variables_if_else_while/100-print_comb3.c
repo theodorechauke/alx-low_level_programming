@@ -10,21 +10,20 @@
 int main(void)
 
 {
-	int n, m, l;
-	for (n = 48; n < 58; n++)
+	int d, p;
+
+	for (d = '0'; d < '9'; d++)
 	{
-	for (m = 49; m <= 57; m++)
+	for (p = d + 1; p <= '9'; p++)
 	{
-	if (m > n)
+	if (p != d)
 	{
-	putchar(n);
-	putchar(m);
-	if (n != 56 || m != 57)
-	{
-	
+	putchar(d);
+	putchar(d);
+	if (d == '8' && p == '9')
+	continue;
 	putchar('.');
 	putchar(' ');
-	}
 	}
 	}
 	}

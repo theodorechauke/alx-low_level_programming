@@ -3,7 +3,7 @@
 /**
 * main - A program that print a line using the printf function
 *
-* Retrun: 0 (Succesful)
+* Return: 0 (Succesful)
 */
 int main(void)
 {

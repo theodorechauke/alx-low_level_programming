@@ -29,7 +29,7 @@ You can assume that the two numbers and result of the multiplication can be stor
 If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
 
 4. To infinity and beyond
-mandatory
+
 Write a program that adds positive numbers.
 
 Print the result, followed by a new line

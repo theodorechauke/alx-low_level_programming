@@ -3,12 +3,12 @@
 
 /**
  * main - prints the minimum number of coins to
- * make chane of an amount of money.
+ * 	make chane of an amount of money.
  * @argc: The number of argument supplied to the program.
  * @arv: An array pf pointers to the arguments.
  *
  * Return: If the number of arguments is not exactly one - 1.
- * otherwise - 0.
+ * 	otherwise - 0.
  */
 int main(int argc, char *argv[])
 {

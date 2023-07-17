@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * print_dog - prints all data on a dog
+ * print_dog - Prints all the data of a dog
  * @d: A dog structure
  *
  * Return: Nothing

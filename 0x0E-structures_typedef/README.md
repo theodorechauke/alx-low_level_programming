@@ -30,7 +30,7 @@ If d is NULL print nothing
 
 Define a new type dog_t as a new name for the type struct dog.
 
-4. A door is what a dog is perpetually on the wrong side of
+4. A door is what a dog is perpetually on the wrong side of.
 
 Write a function that creates a new dog.
 

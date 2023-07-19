@@ -32,7 +32,7 @@ Prototype: int int_index(int *array, int size, int (*cmp)(int));
 
 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 mandatory
-- Write a program that performs simple operations.
+Write a program that performs simple operations.
 
 You are allowed to use the standard library
 Usage: calc num1 operator num2

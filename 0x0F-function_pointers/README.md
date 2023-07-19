@@ -43,8 +43,8 @@ operator is one of the following:
 *: multiplication
 /: division
 %: modulo
-The program prints the result of the operation, followed by a new line
-You can assume that the result of all operations can be stored in an int
-if the number of arguments is wrong, print Error, followed by a new line, and exit with the status 98
-if the operator is none of the above, print Error, followed by a new line, and exit with the status 99
-if the user tries to divide (/ or %) by 0, print Error, followed by a new line, and exit with the status 100
+- The program prints the result of the operation, followed by a new line
+- You can assume that the result of all operations can be stored in an int
+- if the number of arguments is wrong, print Error, followed by a new line, and exit with the status 98
+- if the operator is none of the above, print Error, followed by a new line, and exit with the status 99
+- if the user tries to divide (/ or %) by 0, print Error, followed by a new line, and exit with the status 100
